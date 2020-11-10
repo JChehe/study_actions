@@ -16,6 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git branch -M main
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:JChehe/study_actions.git main:gh-pages
 
