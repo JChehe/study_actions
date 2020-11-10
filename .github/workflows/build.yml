@@ -49,7 +49,7 @@ jobs:
       # deploy
       - name: Run deploy script
         run: |
-          git config user.name "JChehe" && git config user.email "574805242@qq.com"
+          git config --global user.name "JChehe" && git config --global user.email "574805242@qq.com"
           sh deploy.sh
         
 
