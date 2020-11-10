@@ -17,6 +17,10 @@ git add -A
 git commit -m 'deploy'
 
 git branch -M main
+
+# 部署到 https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:JChehe/study_actions.git main:gh-pages
 
