@@ -48,9 +48,7 @@ jobs:
 
       # deploy
       - name: Run deploy script
-        run: |
-          git config --global user.name "JChehe" && git config --global user.email "574805242@qq.com"
-          sh deploy.sh
+        run: sh deploy.sh
         
 
       # Runs a single command using the runners shell
